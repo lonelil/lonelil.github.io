@@ -4,8 +4,13 @@ html, body, .background, .overlay {
   overflow: hidden;
 }
 
+@font-face {
+    font-family: 'GreycliffCFBold';
+    src: url('https://raw.githubusercontent.com/lonelil/lonelil.github.io/main/fonts/GreycliffCFBold.ttf');
+}
+
 body {
-  font-family: 'Inria Sans', sans-serif;
+  font-family: 'GreycliffCFBold', sans-serif;
   display: flex;
   align-items: center;
 }
