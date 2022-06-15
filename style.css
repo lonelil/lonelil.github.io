@@ -1,0 +1,24 @@
+html, body, .background, .overlay {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Inria Sans', sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+span[data-tooltip] {
+  border-bottom: 0;
+}
+
+.background, .overlay {
+  position: absolute;
+  display: flex;
+}
+
+.background img {
+  object-fit: cover;
+}
